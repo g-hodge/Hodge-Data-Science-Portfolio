@@ -64,7 +64,7 @@ st.write(f"Penguins that are {sex}:")
 st.dataframe(df_filtered_sex)
 
 # creating slider for year
-st.write("One last thing before we go! Now you can look into when the information was collected on all of our lovely penguins...")
+st.write("One last thing before we go! Now you can look into when the information was collected on all of our perfect penguins...")
 year = st.slider("Swipe to learn when information was collected:", min_value=df["Year"].min(), max_value=df["Year"].max())
 df_filtered_year = df[df["Year"] <= year] # returned observations will be less than or equal to selected value
 st.dataframe(df_filtered_year)
