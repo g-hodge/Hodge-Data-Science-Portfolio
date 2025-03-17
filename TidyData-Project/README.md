@@ -61,13 +61,13 @@ Before running the code, please download the dataset ``fed_rd_year&gdp.csv`` loc
 
 After downloading the dataset, please import the following libraries*:
 
-``pandas``
+``pandas`` for data wrangling
 
-``seaborn``
+``seaborn`` for visualizations
 
-``matplotlib.pyplot``
+``streamlit`` for interactive app development
 
-``numpy``
+``matplotlib.pyplot`` for visualizations
 
 *If you are having issues, it may be necessary to run the command ``!pip install`` followed by the desired library.
 
