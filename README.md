@@ -19,7 +19,7 @@ I documented the process of cleaning a dataset with information on the Federal R
 <br>
 <hr>
 
-<img align="left" width="230" height="150" src="https://github.com/user-attachments/assets/3511898c-a550-4b73-a2d0-478bf010fd31"> **[*basic-streamlit-app*](https://github.com/g-hodge/Hodge-Data-Science-Portfolio/tree/main/basic-streamlit-app):** I created an app that allows for active engagement with dataset detailing Palmer's Penguins of Antarctica! You can filter the dataset based on attributes such as bill length, species, and sex. This project contributes to my portfolio as it demonstrates how large datasets can be made interactive and cater to the needs of those using it.
+<img align="left" width="230" height="150" src="https://github.com/user-attachments/assets/3511898c-a550-4b73-a2d0-478bf010fd31"> **[*basic-streamlit-app*](https://github.com/g-hodge/Hodge-Data-Science-Portfolio/tree/main/basic-streamlit-app):** I created an app that allows for active engagement with a dataset detailing Palmer's Penguins of Antarctica! You can filter the dataset based on attributes such as bill length, species, and sex. This project contributes to my portfolio as it demonstrates how large datasets can be made interactive and cater to the needs of those using it.
 
 <br>
 <hr>
