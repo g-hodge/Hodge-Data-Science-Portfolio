@@ -14,20 +14,44 @@ In this project, I apply the Tidy Data principles to a dataset containing inform
 ## Tools
 
 ### Libraries
-To leverage the code, please install the following libraries:
+To leverage the code, please import the following libraries*:
+<br><br>
+``pandas``:
+<br><br>
+``seaborn``: For plotting
+<br><br>
+``matplotlib.pyplot``: For plotting
+<br><br>
+``numpy``: For computing
+<br><br>
+**If you are having issues, it may be necessary to run the command ``!pip install``*
 
 ### Resources
 
 <br>
 
+<br>
+
 ## Variables
-``Department``
-<br><br>
-``GDP``
-<br><br>
-``Year``
-<br><br>
-``Budget``
+``Budget``*: Funds alloted to R&D work in dollars
+
+<br>
+
+``Department``: Organizations within the U.S. Federal Government 
+
+<br>
+
+``GDP``*: Gross domestic product (GDP) of the U.S. in dollars
+
+<br>
+
+``Year``: Fiscal year (runs from Sept. 1st to the following Oct. 31st)
+
+<br>
+
+**All dollar amounts have been adjusted for inflation*
+
+<br>
 
 ## Process
 
