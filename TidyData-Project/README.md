@@ -28,31 +28,31 @@ After cleaning, the four variables in the dataset are...
 <summary>**Select to see a list of all departments included</summary>
 
 
-DHS = Department of Homeland Security
+**DHS** is Department of Homeland Security 🚔
 
-DOC = Department of Commerce
+**DOC** is Department of Commerce 📈
 
-DOD = Department of Defense
+**DOD** is Department of Defense 🪖
 
-DOE = Department of Energy
+**DOE** is Department of Energy ⚡️
 
-DOT = Department of Transportation
+**DOT** is Department of Transportation ✈️
 
-EPA = Environmental Protection Agency
+**EPA** is Environmental Protection Agency 🌳
 
-HHS = Department of Health and Human Services
+**HHS** is Department of Health and Human Services ⛑️
 
-Interior = Department of the Interior
+**Interior** is Department of the Interior 🦬
 
-NASA = National Aeronautics and Space Administration
+**NASA** is National Aeronautics and Space Administration 🚀
 
-NIH = National Institutes of Health
+**NIH** is National Institutes of Health 💉
 
-NSF = National Science Foundation
+**NSF** is National Science Foundation 🧪
 
-USDA = U.S. Department of Agriculture
+**USDA** is U.S. Department of Agriculture 🌾
 
-VA = Department of Veteran Affairs
+**VA** is Department of Veteran Affairs 🎖️
 </details>
 
 
@@ -69,12 +69,12 @@ After downloading the dataset, please import the following libraries*:
 
 ``numpy``
 
-*If you are having issues, it may be necessary to run the command ``!pip install`` followed by the desired library
+*If you are having issues, it may be necessary to run the command ``!pip install`` followed by the desired library.
 
 
 ## Process
 
-When cleaning the data, I applied Hadley Wickham's three Tidy data principles [Tidy data principles]([https://pages.github.com/](https://vita.had.co.nz/papers/tidy-data.pdf)). These principles include...
+When cleaning the data, I applied Hadley Wickham's three [Tidy data principles](https://vita.had.co.nz/papers/tidy-data.pdf). These principles include...
 
 1) Each variable must have its own column
   
@@ -84,6 +84,7 @@ When cleaning the data, I applied Hadley Wickham's three Tidy data principles [T
 
 The purpose of having Tidy data is to facilitate easier consumption and analysis, allowing for stakeholders to use your data to make a **real, tangible impact on the world.**
 
+To support my work, I also utilized [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf) to help with data wrangling.
 
 ## Sample Visualizations
 
