@@ -1,5 +1,5 @@
 matplotlib==3.7.3
-numpy==1.23.25
+numpy==1.23.5
 pandas==2.2.3
 scikit_learn==1.6.1
 seaborn==0.11.0
