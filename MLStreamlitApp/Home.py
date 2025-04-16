@@ -11,7 +11,8 @@ st.divider()
 
 column1, column2 = st.columns([.3,.5])
 with column1:
-    st.image("/app/MLStreamlitApp/images/shutterstock_1097793092-scaled.jpg", use_column_width = True)
+    url1 = "https://thumbs.dreamstime.com/b/french-bulldog-dressed-as-businessman-works-desk-computer-french-bulldog-dressed-as-businessman-works-desk-computer-119419167.jpg?w=768"
+    st.image(url1, use_column_width = True)
 
 with column2:
     st.write("Through this app, you will have the opportunity to build and evaluate supervised machine learning models.")
