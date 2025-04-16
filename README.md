@@ -14,6 +14,10 @@ Throughout this course, I will be developing a portfolio that reflects what I've
 
 ## Portfolio Content
 
+<img align="left" width="230" height="150" src="https://github.com/user-attachments/assets/3511898c-a550-4b73-a2d0-478bf010fd31"> **[*MLStreamlitApp*](https://github.com/g-hodge/Hodge-Data-Science-Portfolio/tree/main/MLStreamlitApp):** I developed an app that helps users understand machine learning on their own terms. Through this app, users can upload their own datasets. After uploading, users can pick between leveraging a Linear Regression or K-Nearest neighbor model. Users will also have the option to fine tune and evaluate their model across several fronts. This project contributes to my portfolio as it demonstrates the wide ranging applicability of machine learning to any dataset.
+<br>
+<hr>
+
 <img align="left" width="230" height="150" src="https://github.com/user-attachments/assets/a151b1c9-97e5-4c19-b5e7-e298b09bcdee"> **[*TidyData-Project*](https://github.com/g-hodge/Hodge-Data-Science-Portfolio/tree/main/TidyData-Project):**
 I documented the process of cleaning a dataset with information on the Federal R&D budget using Tidy Data principals! In addition to creating cleaned versions of the data available in ``clean-data``, you can see it going into action through visualizations and pivot tables. Going further, you can see the benefits of Tidy Data in interactive apps, such as the one found in ``streamlit.py``. This project contributes to my portfolio as it details the pesky process that is necessary to tell great data stories.
 <br>
