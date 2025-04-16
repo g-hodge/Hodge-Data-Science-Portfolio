@@ -23,7 +23,7 @@ st.divider()
 column1, column2 = st.columns([.3,.5])
 with column1:
     url2 = "https://github.com/g-hodge/Hodge-Data-Science-Portfolio/blob/main/MLStreamlitApp/images/istockphoto-170462856-612x612.jpg?raw=true"
-    st.image("https://github.com/g-hodge/Hodge-Data-Science-Portfolio/blob/main/MLStreamlitApp/images/istockphoto-170462856-612x612.jpg?raw=true", use_column_width = True)
+    st.image(url2, use_column_width = True)
 
 with column2:
     st.write("If you are struggling to find a dataset, please visit:")
@@ -67,11 +67,13 @@ with column1:
 with column2:
     column1, column2, column3 = st.columns([.5, 2, .25])
     with column2:
-        st.image("images/360_F_227570924_A3T5Zw5EYnW3cAPeSphGMPh23zGCnFan.jpg", use_column_width=True)
+        url3 = "https://github.com/g-hodge/Hodge-Data-Science-Portfolio/blob/main/MLStreamlitApp/images/360_F_227570924_A3T5Zw5EYnW3cAPeSphGMPh23zGCnFan.jpg?raw=true"
+        st.image(url3, use_column_width=True)
     st.divider()
     column1, column2, column3 = st.columns([.5, 2, .25])
     with column2:
-        st.image("images/istockphoto-1049887368-612x612.jpg", use_column_width=True)
+        url4 = "https://github.com/g-hodge/Hodge-Data-Science-Portfolio/blob/main/MLStreamlitApp/images/istockphoto-1049887368-612x612.jpg?raw=true"
+        st.image(url4, use_column_width=True)
 
 st.divider()
 

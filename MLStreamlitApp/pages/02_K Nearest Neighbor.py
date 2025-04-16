@@ -21,7 +21,8 @@ with column1:
     st.write("On this page, you'll construct and evaluate a K-Nearest Neighbor model.")
     st.write("You have chosen to work with a K-Nearest Neighbor model as your target variable is categorical.")
 with column2:
-    st.image("images/istockphoto-453035943-612x612.jpg")
+    url6 = "https://github.com/g-hodge/Hodge-Data-Science-Portfolio/blob/main/MLStreamlitApp/images/istockphoto-453035943-612x612.jpg?raw=true"
+    st.image(url6)
 
 st.divider()
 

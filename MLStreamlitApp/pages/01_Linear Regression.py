@@ -20,7 +20,8 @@ with column1:
     st.write("On this page, you'll construct and evaluate a Linear Regression model.")
     st.write("You have chosen to work with a Linear Regression model as your target variable is numerical. If possible, please choose a *continuous* numerical variable.")
 with column2:
-    st.image("images/1.webp")
+    url5 = "https://raw.githubusercontent.com/g-hodge/Hodge-Data-Science-Portfolio/refs/heads/main/MLStreamlitApp/images/1.webp"
+    st.image(url5)
 
 st.divider()
 
