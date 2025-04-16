@@ -11,19 +11,19 @@ st.divider()
 
 column1, column2 = st.columns([.3,.5])
 with column1:
-    url1 = "https://thumbs.dreamstime.com/b/french-bulldog-dressed-as-businessman-works-desk-computer-french-bulldog-dressed-as-businessman-works-desk-computer-119419167.jpg?w=768"
+    url1 = "https://github.com/g-hodge/Hodge-Data-Science-Portfolio/blob/main/MLStreamlitApp/images/shutterstock_1097793092-scaled.jpg?raw=true"
     st.image(url1, use_column_width = True)
 
 with column2:
     st.write("Through this app, you will have the opportunity to build and evaluate supervised machine learning models.")
-
     st.write("When learning, you will have the option to upload your own file, allowing you to have a personal connection with your learning.")
     st.write("After uploading, all null values will take the median value of the variable.")
 
 st.divider()
 column1, column2 = st.columns([.3,.5])
 with column1:
-    st.image("images/istockphoto-170462856-612x612.jpg", use_column_width = True)
+    url2 = "https://github.com/g-hodge/Hodge-Data-Science-Portfolio/blob/main/MLStreamlitApp/images/istockphoto-170462856-612x612.jpg?raw=true"
+    st.image("https://github.com/g-hodge/Hodge-Data-Science-Portfolio/blob/main/MLStreamlitApp/images/istockphoto-170462856-612x612.jpg?raw=true", use_column_width = True)
 
 with column2:
     st.write("If you are struggling to find a dataset, please visit:")
