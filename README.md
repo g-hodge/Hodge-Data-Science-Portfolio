@@ -29,6 +29,8 @@ I documented the process of cleaning a dataset with information on the Federal R
 <hr>
 
 ### Sources
+*Dog: https://depositphotos.com/photos/dog-programmer.html*
+
 *Penguin: https://stock.adobe.com/search?k=funny+penguin*
 
 *Pentagon: https://www.defense.gov/*
