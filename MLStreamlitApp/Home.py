@@ -77,5 +77,5 @@ with column2:
 
 st.divider()
 
-st.write("*Please visit ")
+st.write("*Please visit *https://github.com/g-hodge/Hodge-Data-Science-Portfolio/blob/main/MLStreamlitApp/README.md* for more information and image sources*")
 
