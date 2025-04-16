@@ -67,6 +67,8 @@ k = st.slider("Please choose the number of neighbors (i.e., k):", min_value=1,  
 
 #-----------3. Model Training and Evaluation----
 
+## In this section, I will train a K-Nearest Neighbor model. To do so, I will take the inputs and divide them into two groups: train and test. I will use these two groups to create the regression and then evaluate it. The user will also have the capacity to just the number of neighbors (i.e., k) and scale the date if desired.
+
 if X_select and y_select:                       ## creating if statement; if both feature and target are chosen, the rest of the code will appear
     X = df[X_select]
     y = df[y_select]
@@ -92,8 +94,10 @@ if X_select and y_select:                       ## creating if statement; if bot
 
     st.write("Below is a table containing information that can be leveraged to evaluate the model.")
 
+    ## The user will have the opportunity to review metrics relating to the model's predictive capacity. All of the metrics relate to how a model is able to work with true positives.
+
     report = classification_report(y_test, y_pred, output_dict = True)     ## creating object for classification report
-    df_report = pd.DataFrame(report).transpose()
+    df_report = pd.DataFrame(report).transpose()                           ## making report dataframe for easier reading
 
     st.dataframe(df_report.style.format("{:.2f}"), use_container_width = True)  ## converting report to dataframe
 
@@ -113,10 +117,12 @@ if X_select and y_select:                       ## creating if statement; if bot
         st.write("**Support**")
         st.write("Support is a count of all the true positives for a class.")
 
+    ## The user can also visually evaluate the model. They'll have access to a confusion matrix. A confusion matrix is used to visualize a model's ability to correctly identify testing points based on the training data. This graph will be dynamic as it changes with different k's. This is not the case with the other graph. In the other graph, which plots k-values against accuracy, it remains the same across k-values. What this graph does is provide the user with the ability to understand the optimal k-value for their graph.
+
     st.divider()
     st.write("However, like with Linear Regression models, K-Nearest Neighbor models can be evaluated visually too.")
     st.write("On the left is a *confusion matrix*. This matrix illustrates how well a model predicts the class of a datapoint.")
-    st.write("On the right is a graph plotting *K values against accuracy*. This graph visually indicates the optimal number of neighbors when considering accuracy. The most optimal model will have its K be tuned to be the same as the highest point on the graph.")
+    st.write("On the right is a graph plotting *K-values against accuracy*. This graph visually indicates the optimal number of neighbors when considering accuracy. The most optimal model will have its K be tuned to be the same as the highest point on the graph.")
     st.divider()
 
     column1, column2, column3 = st.columns([1, .1, 1])

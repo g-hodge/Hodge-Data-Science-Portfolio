@@ -6,20 +6,31 @@ import pandas as pd     ## for data wrangling
 #-----------1. Creating introduction-------------
 
 st.title("Are you ready for machine learning?")
+st.subheader("*Ready or not...here it comes...*")
 st.divider()
 
 column1, column2 = st.columns([.3,.5])
 with column1:
-    st.write("")
-    st.image("images/shutterstock_1097793092-scaled.jpg", use_column_width=True)
+    st.image("images/shutterstock_1097793092-scaled.jpg", use_column_width = True)
 
 with column2:
     st.write("Through this app, you will have the opportunity to build and evaluate supervised machine learning models.")
 
     st.write("When learning, you will have the option to upload your own file, allowing you to have a personal connection with your learning.")
     st.write("After uploading, all null values will take the median value of the variable.")
-    st.write("If you are struggling to find a dataset, please go to *www.kaggle.com/datasets* or *https://datasetsearch.research.google.com/*.")
 
+st.divider()
+column1, column2 = st.columns([.3,.5])
+with column1:
+    st.image("images/istockphoto-170462856-612x612.jpg", use_column_width = True)
+
+with column2:
+    st.write("If you are struggling to find a dataset, please visit:")
+    st.markdown("""
+    - [Kaggle Datasets](https://www.kaggle.com/datasets)
+    - [Google Dataset Search](https://datasetsearch.research.google.com/)
+    - [UCI Machine Learning Repository](https://archive.ics.uci.edu/)
+    """)
 #-----------2. File Upload-----------------------
 
 st.divider()
@@ -62,4 +73,6 @@ with column2:
         st.image("images/istockphoto-1049887368-612x612.jpg", use_column_width=True)
 
 st.divider()
+
+st.write("*Please visit ")
 

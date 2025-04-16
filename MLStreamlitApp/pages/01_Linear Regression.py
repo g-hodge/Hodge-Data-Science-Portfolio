@@ -64,9 +64,8 @@ st.subheader("*Let's review and evaluate the model*")
 st.divider()
 
 #-----------3. Model Training and Evaluation----
-'''In this section, I will train a Linear Regression model. To do so, I will take the inputs and divide them into two groups: train and test.
-These two groups will be used to create and evaluate my linear regression model. I will also--if requested by the user--scale my data. Scaling puts
-all of the variables on the same scale (i.e., standard deviations), which can enhance analysis.'''
+
+## In this section, I will train a Linear Regression model. To do so, I will take the inputs and divide them into two groups: train and test. These two groups will be used to create and evaluate my linear regression model. I will also--if requested by the user--scale my data. Scaling puts all of the variables in the same units (i.e., standard deviations), which makes it easier to apply the model's results.
 
 
 if X_select and y_select:                       ## creating if statement; if both feature and target are chosen, the rest of the code will appear
@@ -95,8 +94,12 @@ if X_select and y_select:                       ## creating if statement; if bot
     for feature, coef in zip(feature_names, coefficients):
         st.write(f"For every 1.00 unit increase in feature {feature}, there is a {coef:.2f} unit change in {y_select}.")
     
+    ## The output of this section will be a list of coefficients. These coefficients represent the predicted change in the target variable when the feature variable changes by 1 unit.
+
     st.divider()
     
+    ## I will also provide an opportunity to evaluate the model visually. To do so, I will plot the predicted values against the residual values. This helps me and the user understand if the model is a fit for the data. If it is a strong fit, the datapoints will appear to be randomly distributed around the graph, with the only clustering occuring around the y-axis value of "0". If it does not appear as I described, another model may be better. For instance, if it clusters at one of the ends, a non-linear model may be a better fit.
+
     column1, column2 = st.columns([.6,1])
     with column1:
         st.write("")
@@ -113,7 +116,11 @@ if X_select and y_select:                       ## creating if statement; if bot
         plt.title("Residual Values versus Predicted Values")
         st.pyplot(plt)
 
+    ## In the end, the graph produced will have two axes. The x-axis will be labelled "predicted values," while the y-axis will take on the label "residuals." There will also be a dotted blue line cutting the graph in half. This line has a formula of y = 0 (therefore, it has a gradient of 0).
+
     st.divider()
+
+    ## Additional metrics will be provided after the visualization. These include MSE, RMSE, and R^2. The role of these metrics in evaluation is described within the app for easy access by the user.
 
     st.write("However, you can also go beyond visualizations. For Linear Regression models, you can leverage three main metrics used in evaluation.")
     
