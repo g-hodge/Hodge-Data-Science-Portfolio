@@ -15,7 +15,8 @@ The two models in this app are **Linear Regression** and **K-Nearest Neighbor** 
 
 **Linear Regression** models help us understand how one or a set of variables (i.e., features) impact another variable (i.e., the target). In this app, you can select your target and feature variables. You can also decide whether you would like to scale the data or not. If you scale, everything will be in the same units!
 
-**K-Nearest Neighbors** models work to place datapoints in the correct group (i.e., class). Like the Linear Regression model, feature and target variable selection is up to you; you also call the shots on scaling. In this app, you can also tune the model's number of neighbors (i.e., k). By adjusting this value, you change how many possible neighbors the model searches for. (Rumor has it, Mr. Rogers invented this one...)
+**K-Nearest Neighbors** models work to place datapoints in the correct group (i.e., class). Like the Linear Regression model, feature and target variable selection is up to you; you also call the shots on scaling. In this app, you can also tune the model's number of neighbors (i.e., k). By adjusting this value, you change how many possible neighbors the model searches for. 
+*(Rumor has it Mr. Rogers invented this one...)*
 
 
 ## Code Instructions 🧑‍💻
@@ -66,7 +67,7 @@ To locally launch the app, please follow these steps:
 
 1) Open your terminal
 
-2) Check that the file *Home.py* is within your current working directory by running ``ls`` (if it isn't, use ``cd`` to navigate there.
+2) Check that the file *Home.py* is within your current working directory by running ``ls`` (if it isn't, use ``cd`` to navigate there)
 
 3) Enter ``streamlit run Home.py``
 
