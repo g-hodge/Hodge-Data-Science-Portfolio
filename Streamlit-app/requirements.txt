@@ -1,6 +1,0 @@
-matplotlib==3.7.3
-numpy==1.26.4
-pandas>=2.0,<2.2.3
-scikit_learn==1.6.1
-seaborn  # Remove the version specifier to get the latest
-streamlit==1.42.0
