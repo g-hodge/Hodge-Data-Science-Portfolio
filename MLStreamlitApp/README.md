@@ -78,13 +78,13 @@ To locally launch the app, please follow these steps:
 
 
 <p align="center">
-  <img src="https://private-user-images.githubusercontent.com/195391117/434541050-a5d9980d-a5f6-4cab-83d6-5d69d5f84e39.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDQ4NDA0NzUsIm5iZiI6MTc0NDg0MDE3NSwicGF0aCI6Ii8xOTUzOTExMTcvNDM0NTQxMDUwLWE1ZDk5ODBkLWE1ZjYtNGNhYi04M2Q2LTVkNjlkNWY4NGUzOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQxNlQyMTQ5MzVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mODhiYjRlY2M3ZTk4NzJkNTAxMDgyM2MwM2U5MzE0ZjY3MWRhZTBjNjUxMDM0MWQwNGMwZGRmZWEwYmQxY2Q5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.BOR9gOoQgfmhRLRTsTElJ-pxmO1cYDniT42qieWboHg" width="45%" style="display:inline-block; margin-right: 10px;">
-  <img src="https://private-user-images.githubusercontent.com/195391117/434541199-de43475c-c3fa-4544-83cc-34488f2724f7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDQ4NDA1MTEsIm5iZiI6MTc0NDg0MDIxMSwicGF0aCI6Ii8xOTUzOTExMTcvNDM0NTQxMTk5LWRlNDM0NzVjLWMzZmEtNDU0NC04M2NjLTM0NDg4ZjI3MjRmNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQxNlQyMTUwMTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zZmUyOTQzMGYxOTg3NjA0OTZjMzhhNDA3ZjI1ZWY5MDI0OGNjNzU4NDVhN2Y0YmQ3MzJhNjliOGFjMTIxNTEwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.yJySDKmESjQiO20Mp_gd0Ot6YvzNkWbGM2M0CQmIMu0" width="45%" style="display:inline-block;">
+  <img src="sample-visualizations/2b83e0d6fcc085602e8fb89810d19109b7b3200282dbb44e1197dc3a.png" width="45%" style="display:inline-block; margin-right: 10px;">
+  <img src="sample-visualizations/b03f83b604178f4b8fa3ee0259efbb7390a500061a4074e896b3c4ec.png" width="45%" style="display:inline-block;">
 </p>
 
-👈 The visualization on the left showcases a **confusion matrix for a K-Nearest Neighbor Model**. This is a strong model as the model accurately predicted the class of datapoints in the testing set a majority of the time.
+👈 The visualization on the left showcases a **confusion matrix for a K-Nearest Neighbor Model**. This is a decent model. While it can accurately identify datapoints, it cannot do it with a high level of confidence.
 
-👉 The visualization on the right **plots a Linear Regression model's accuracy against its residuals**. The model evaluated in the example is decent as the points are mostly randomly distributed, with slight clustering around when residuals equals 0.
+👉 The visualization on the right **plots a Linear Regression model's accuracy against its residuals**. The model evaluated in the example is good as the points are mostly randomly distributed, with slight clustering around when residuals equals 0.
 
 ## Sources 📚
 
