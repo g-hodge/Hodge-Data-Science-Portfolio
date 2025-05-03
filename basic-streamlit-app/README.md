@@ -9,7 +9,7 @@ In this project, I create a simple Streamlit app. Through the app, users have th
 ## Data 📊
 This project's data comes from a modified version of **Kristen Gorman, Tony Williams, and William Fraser's** ["Ecological Sexual Dimorphism and Environmental Variability within a Community of Antarctic Penguins (Genus *Pygoscelis*)"](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090081).
 
-The dataset contains nine variables, which include:
+The dataset contains nine variables:
 
 
 ``bill_depth_mm``: The depth of penguins' bills measured in millimeters.
