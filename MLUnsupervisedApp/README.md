@@ -5,7 +5,7 @@ Users can choose from either a Principal Component Analysis or KMeans model.
 After creating their model, they can evaluate it, loop back, and make any desired adjustments to the hyperparameters.
 By doing so, they can create a product they are proud of and understand.
 
-## Unsupervised Machine Learning Overview
+## Unsupervised Machine Learning 📕
 The goal of machine learning is to create models that replicate how humans go about making decisions. Machine learning comes in three different types: **supervised**, **unsupervised**, and **reinforcement learning**.
 This app will help users learn about unsupervised machine learning.
 
@@ -90,7 +90,7 @@ To locally launch the app, please follow these steps:
 
 ## Sources
 
-📕 To learn about unsupervised machine learning, I read parts of Luis G. Serrano's [Grokking Machine Learning](https://www.manning.com/books/grokking-machine-learning).
+📕 To learn about unsupervised machine learning, I read parts of Luis G. Serrano's [*Grokking Machine Learning*](https://www.manning.com/books/grokking-machine-learning).
 
 🖼️ To design graphs, I referenced matplotlib's ["Quick start guide"](https://matplotlib.org/stable/users/explain/quick_start.html).
 
