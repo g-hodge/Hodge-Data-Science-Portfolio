@@ -85,7 +85,7 @@ st.divider()
 st.subheader("Evaluation")
 st.divider()
 
-st.write("*The evaluation section will contain two scree plots. Both aim to visualize how much of the variance in the dataset can be explained by each component.*")
+st.write("The evaluation section contains two scree plots. Both aim to visualize how much of the variance in the dataset can be explained by each component.")
 
 col1, col2, col3 = st.columns([1,.1,1])
 
