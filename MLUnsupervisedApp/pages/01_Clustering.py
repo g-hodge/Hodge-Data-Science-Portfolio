@@ -214,7 +214,7 @@ with col3:
     ax.set_xlabel('Number of clusters')
     ax.set_ylabel('WCSS')
     ax.set_title('Optimal K: Elbow Method')
-    plt.xticks(np.arange(min(k_silhouette), max(k_silhouette)+2, 2)) # adjusting increments between ticks to 2 units
+    ax.plt.xticks(np.arange(min(k_silhouette), max(k_silhouette)+2, 2)) # adjusting increments between ticks to 2 units
     ax.grid(False) # turning off grid lines
 
     st.pyplot(fig) # plotting fig on canvas
