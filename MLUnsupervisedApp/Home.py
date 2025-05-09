@@ -89,7 +89,7 @@ with col1:
         df = df.select_dtypes(include=['number']) # dropping columns with non-numeric data
         st.session_state.df = df # preserving df across pages
         st.balloons() # launching balloons when file is successfuly uploaded
-        st.success("You have uploaded a CSV file! Missing values have been filled with the the variable's mode value; variables containing non-numerical values have also been dropped.") # notifying user dataset is uploaded and altered
+        st.success("You have uploaded a CSV file! Missing values have been filled with the the variable's mode value; variables containing non-numerical values have also been dropped; after this page, the data uploaded will be scaled for standardization purposes.") # notifying user dataset is uploaded and altered
 
     else:
         st.warning("Please upload a CSV file to continue!") # notifying users who have not uploaded a file to do so
