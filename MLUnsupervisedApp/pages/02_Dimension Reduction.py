@@ -95,15 +95,15 @@ with col1:
     X_pca_full = pca_full.fit(X_std_dr) # applying pca model
     cumulative_variance = np.cumsum(X_pca_full.explained_variance_ratio_) # calculating cumulative variance using numpy
 
-    fig = plt.figure(figsize=(8, 8))
-    plt.plot(range(1, len(cumulative_variance) + 1), # creating plot where the value of a point is the component's variance plus preceeding components
+    fig, ax = plt.figure(figsize=(8, 8))
+    ax.plt.plot(range(1, len(cumulative_variance) + 1), # creating plot where the value of a point is the component's variance plus preceeding components
              cumulative_variance, marker = "o", 
              color = "red", linestyle= "--" ) # line is hashed and red
-    plt.xlabel("Number of Components")
-    plt.ylabel("Cumulative Explained Variance")
-    plt.title("Cumulative Explained Variance from PCA")
-    plt.xticks(range(1, len(cumulative_variance) + 1)) # creating range that includes all component variables requested by the user
-    plt.grid(False) # turning off grid lines
+    ax.plt.xlabel("Number of Components")
+    ax.plt.ylabel("Cumulative Explained Variance")
+    ax.plt.title("Cumulative Explained Variance from PCA")
+    ax.plt.xticks(range(1, len(cumulative_variance) + 1)) # creating range that includes all component variables requested by the user
+    ax.plt.grid(False) # turning off grid lines
 
     st.pyplot(fig) # making plot visible on streamlit
 
@@ -113,15 +113,15 @@ with col2:
 with col3:
     st.write("**Variance Explained by Each Component**")
     
-    fig = plt.figure(figsize=(8, 8))
+    fig, ax = plt.figure(figsize=(8, 8))
     components = range(1, len(pca_full.explained_variance_ratio_) + 1) # making a range of components that match the number of components possible for the pca analysis based on the dataset
-    plt.bar(components, pca_full.explained_variance_ratio_,  # creating bar chart where column's height is the amount of variance the component explains
+    ax.plt.bar(components, pca_full.explained_variance_ratio_,  # creating bar chart where column's height is the amount of variance the component explains
             color = "white", edgecolor =  "navy", hatch = "//") # where columns are white with blue hashes
-    plt.xlabel("Component")
-    plt.ylabel("Explained Variance")
-    plt.title("Variance explained by each component from PCA")
-    plt.xticks(components) # making ticks the components
-    plt.grid(False) # turning off grid lines
+    ax.plt.xlabel("Component")
+    ax.plt.ylabel("Explained Variance")
+    ax.plt.title("Variance explained by each component from PCA")
+    ax.plt.xticks(components) # making ticks the components
+    ax.plt.grid(False) # turning off grid lines
     st.pyplot(fig) # showing plot on streamlit appp
 
 st.write("To choose the ideal number of components, you should look for when the gradient of the curve on the left begins to shallow. The graph on the right illustrates how much of the variance each component explains.")
