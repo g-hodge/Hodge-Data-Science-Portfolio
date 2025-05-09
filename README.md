@@ -14,7 +14,7 @@ Throughout this course, I will be developing a portfolio that reflects what I've
 
 ## Portfolio Content
 
-<img align="left" width="230" height="150" src="https://github.com/g-hodge/Hodge-Data-Science-Portfolio/blob/main/MLUnsupervisedApp/images/1_A_jQs5XSkIMoD5qITqDx8w.png"> **[*MLUnsupervisedApp*](https://github.com/g-hodge/Hodge-Data-Science-Portfolio/tree/main/MLUnsupervisedApp):** I designed and produced an app users can use to learn about unsupervised learning models. In the app, users can learning about Principal Component Analysis (a type of dimension reduction model) and KMeans (a clustering model). Users can own their learning by uploading their own datasets, making decisions on how they want to construct a model, and evaluating the models they create. This project contributes to my portfolio as it demonstrates the accessibility and wide applications of unsupervised machine learning.
+<img align="left" width="230" height="150" src="https://github.com/g-hodge/Hodge-Data-Science-Portfolio/blob/main/MLUnsupervisedApp/images/1_A_jQs5XSkIMoD5qITqDx8w.png"> **[*MLUnsupervisedApp*](https://github.com/g-hodge/Hodge-Data-Science-Portfolio/tree/main/MLUnsupervisedApp):** I designed and produced an app users can use to learn about unsupervised learning models. In the app, users can learning about Principal Component Analysis and KMeans models. Users can own their learning by uploading their own datasets, making decisions on how they want to construct a model, and evaluating the models they create. This project contributes to my portfolio as it demonstrates the accessibility and wide applications of unsupervised machine learning.
 <br>
 <hr>
 
